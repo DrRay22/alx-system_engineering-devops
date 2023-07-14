@@ -1,0 +1,31 @@
+The Journey of a URL: Exploring the Magic Behind https://www.google.com
+
+Introduction:
+Have you ever wondered what happens behind the scenes when you type "https://www.google.com" in your browser and press Enter? In this blog post, we will take a deep dive into the intricacies of the internet's inner workings, unraveling the journey of a URL. From DNS requests to web servers and databases, we will explore the crucial components that make this seemingly simple action possible.
+
+1. DNS Request:
+As soon as you hit Enter, your browser initiates a Domain Name System (DNS) request to translate the human-readable URL, "www.google.com," into a numeric IP address. The request travels through a series of DNS servers, eventually obtaining the IP address associated with the domain.
+
+2. TCP/IP:
+With the IP address in hand, your browser establishes a connection using the Transmission Control Protocol (TCP) and the Internet Protocol (IP). TCP ensures reliable data transmission, while IP handles routing and addressing.
+
+3. Firewall:
+Before reaching the destination, the connection must pass through firewalls, which act as a security barrier protecting networks from unauthorized access. Firewalls analyze network traffic, filtering out potentially harmful or suspicious data.
+
+4. HTTPS/SSL:
+If you noticed the "https://" prefix in the URL, it signifies that an encrypted connection using the Hypertext Transfer Protocol Secure (HTTPS) is established. This ensures secure communication between your browser and the server. The Secure Sockets Layer (SSL) or Transport Layer Security (TLS) protocols encrypt the data transmitted, safeguarding it from eavesdropping or tampering.
+
+5. Load-Balancer:
+Once the connection is secure, it reaches a load-balancer, which distributes incoming network traffic across multiple servers. Load-balancers enhance performance, scalability, and reliability by evenly distributing requests and preventing any single server from being overwhelmed.
+
+6. Web Server:
+After passing the load-balancer, the request reaches a web server. In this case, let's assume it's one of Google's many servers. The web server's role is to handle incoming HTTP or HTTPS requests. It processes the request, retrieves the requested resources (web pages, images, etc.), and sends the response back to the client.
+
+7. Application Server:
+Complex web applications often require an application server. In this scenario, let's say Google utilizes an application server to handle more dynamic processes. The application server executes server-side logic, interacts with databases, and generates dynamic content based on the user's request.
+
+8. Database:
+Certain requests require data retrieval or modification, which is where the database comes into play. The application server communicates with the database server, retrieves the necessary information, and includes it in the response sent back to the web server.
+
+Conclusion:
+The journey of a URL, from the moment you press Enter to the moment you see the webpage load, involves a series of intricate steps. DNS requests, TCP/IP connections, firewalls, HTTPS/SSL encryption, load-balancers, web servers, application servers, and databases all play crucial roles in delivering the requested content to your browser. Understanding this behind-the-scenes process helps us appreciate the complexity and reliability of the internet infrastructure, ensuring seamless experiences for users worldwide.
